@@ -9,7 +9,7 @@ const Nav = () => {
 
     const handleLog=() =>{
         setisLogin(true);
-        navigate('/user'); 
+        navigate('/user');
     }
 
     const handleLogout=()=>{
