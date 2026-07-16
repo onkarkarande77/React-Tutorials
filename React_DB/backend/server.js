@@ -9,7 +9,7 @@ app.use(express.json());//Converts JSON data into JavaScript object.
 
 //here is db connection 
 const db = mysql.createConnection({
-  host: "localhost",
+  host: "localhost", 
   user: "root",
   password: "pass@123",
   database: "studentdb"
