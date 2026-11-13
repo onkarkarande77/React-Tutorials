@@ -14,7 +14,7 @@ const db = mysql.createConnection({
   password: "pass@123",
   database: "studentdb" 
 });
-
+ 
 //This tries to connect to database.
 db.connect((err) => {
   if (err) {
